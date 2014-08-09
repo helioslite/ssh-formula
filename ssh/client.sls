@@ -1,4 +1,4 @@
-{% from "ssh/map.jinja" import ssh with context %}
+{% from "ssh/map.jinja" import ssh with context with context %}
 
 ssh_client:
   pkg:
